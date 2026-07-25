@@ -1,26 +1,28 @@
-# Pre-Entrega 2: Lógica de Programación y Control de Flujo
+# Pre-Entrega 4: Uso e interacción con Arrays 🚀
 
-Este proyecto corresponde a la segunda entrega del curso de JavaScript.  
-Consiste en un simulador interactivo que utiliza **condicionales** y **bucles** para controlar el flujo del programa.
+Este repositorio contiene la cuarta pre-entrega del curso de JavaScript, enfocada en la implementación y manipulación de Arrays.
 
-## 📌 Funcionalidad
-- Solicita datos al usuario mediante `prompt()`.
-- Implementa un **bucle while** que se repite hasta que el usuario acierta o escribe "ESC".
-- Dentro del bucle se utilizan **condicionales (if / else if / else)** para evaluar la entrada.
-- Muestra resultados al usuario mediante `alert()` y `console.log()`.
+## 📋 Descripción del Proyecto
+El proyecto consiste en un **Simulador de Gestión de Destinos de Viaje**. Permite administrar un catálogo dinámico de destinos turísticos utilizando la consola del navegador, aplicando la lógica de programación y los métodos de arrays vistos en clase.
 
-## 🛠️ Tecnologías
-- HTML5
-- JavaScript (ES6+)
+## 🛠️ Tecnologías y Conceptos Aplicados
+- **JavaScript (Vanilla)**
+- **HTML5** (para la conexión del script)
+- **Métodos de Arrays utilizados:**
+  - `push()`: Para agregar destinos al final del catálogo.
+  - `unshift()`: Para priorizar destinos al inicio.
+  - `pop()`: Para eliminar y notificar el retiro de un destino.
+  - `includes()`: Para validar si un destino existe en la base de datos.
+  - `indexOf()`: Para ubicar la posición exacta de un destino.
+  - `splice()`: Para actualizar/modificar un destino en un índice específico.
+- **Iteración:** Uso del bucle `for...of` para generar un reporte del catálogo.
+- **Interacción:** Uso de `prompt()` y `alert()` para interactuar con el usuario.
 
-## 📂 Estructura
-- `index.html` → Página principal con vinculación al script.
-- `js/main.js` → Lógica del simulador interactivo.
+## 🚀 Cómo ejecutar el proyecto
+1. Clona este repositorio o descarga los archivos.
+2. Abre el archivo `index.html` en cualquier navegador web.
+3. Haz clic derecho en la página, selecciona **Inspeccionar** y ve a la pestaña **Consola** (o presiona `F12`).
+4. Interactúa con los mensajes en pantalla y observa los reportes en la consola.
 
-## 🚀 Cómo probarlo
-1. Clonar el repositorio.
-2. Abrir `index.html` en un navegador.
-3. Completar los datos solicitados en los `prompt()`.
-4. Ver el resultado en las alertas y en la consola del navegador.
-
----
+## 👨‍💻 Autor
+**Adrián Olivera**
